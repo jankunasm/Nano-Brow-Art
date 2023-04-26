@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+/* Top Header Css */
+.top-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #977315;
+    opacity: .8;
+    height: 45px;
+    font-size: 15px;
+}
+
+.top-header ul {
+    display: flex;
+    color: whitesmoke;
+    gap: 25px;
+    list-style-type: none;
+}
+
+
+/* End Top Header Css */
+
+/* Primary Header Css */
+
+.primary-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #666;
+    opacity: .8;
+    height: 170px;
+    font-size: 32px;
+}
+
+.primary-header .nav-logo {
+    height: 110px;
+    width: auto;
+}
+
+.primary-header ul {
+    display: flex;
+    color: whitesmoke;
+    gap: 25px;
+    list-style-type: none;
+}
+
+.primary-header a {
+    color: rgb(194, 43, 43);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* End Primary Header Css */
