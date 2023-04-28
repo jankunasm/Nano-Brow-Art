@@ -11,6 +11,7 @@ body {
     opacity: .8;
     height: 45px;
     font-size: 18px;
+    overflow: hidden;
 }
 
 .top-header ul {
@@ -49,6 +50,7 @@ insta-logo {
     opacity: .8;
     height: 170px;
     font-size: 32px;
+    overflow: hidden;
 }
 
 .primary-header .nav-logo {
@@ -81,3 +83,26 @@ insta-logo {
 
 
 /* End Main Content Css */
+
+.lorem-test {
+    display: flex;
+    width: 50%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
