@@ -10,15 +10,31 @@ body {
     background-color: #977315;
     opacity: .8;
     height: 45px;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .top-header ul {
     display: flex;
     color: whitesmoke;
-    gap: 25px;
+    gap: 80px;
     list-style-type: none;
 }
+
+/* top-head-address {
+
+}
+
+top-head-phone {
+
+} */
+
+/* facebook-logo {
+
+} 
+
+insta-logo {
+
+}  */
 
 
 /* End Top Header Css */
@@ -29,21 +45,21 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #666;
+    background-color: #463737;
     opacity: .8;
     height: 170px;
     font-size: 32px;
 }
 
 .primary-header .nav-logo {
-    height: 110px;
+    height: 130px;
     width: auto;
 }
 
 .primary-header ul {
     display: flex;
     color: whitesmoke;
-    gap: 25px;
+    gap: 40px;
     list-style-type: none;
 }
 
@@ -54,3 +70,14 @@ body {
 }
 
 /* End Primary Header Css */
+
+.web-banner {
+    height: 50vh;
+    width: autovh;
+}
+
+/* Main Content Css */
+
+
+
+/* End Main Content Css */
